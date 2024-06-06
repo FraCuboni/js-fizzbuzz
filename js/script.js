@@ -7,20 +7,24 @@ for (let index = 1; index < 101; index++) {
     console.log(index);
 
     
+// assegno i valori ai numeri divisibili per 3 e per 5
+    if (index % 3 === 0 && index % 5 === 0) {
+        console.log('fizzbuz');
+    }
+
 // scandisco quali numeri possono essere divisi per 3 
-    if (index % 3 === 0) {
-        console.log(' è un multiplo di 3');
+    else if (index % 3 === 0) {
+        console.log('fizz');
     }
 
 
 // scandisco quali numeri possono essere divisi per 5
-    if (index % 5 === 0) {
-        console.log(' è un multiplo di 5');
+    else if (index % 5 === 0) {
+        console.log('buzz');
     }
 
 
 
-// assegno i valori ai numeri divisibili per 3 e per 5
 
 
 
