@@ -2,7 +2,7 @@
 
 
 // creo il ciclo che crei i numeri da 1 a 100 e me li stampi in console
-for (let index = 1; index < 101; index++) {
+for (let index = 1; index <=100; index++) {
 
     // creo i div square
     const container = document.querySelector("div.container");
